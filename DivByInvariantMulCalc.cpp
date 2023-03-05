@@ -27,7 +27,7 @@ int main()
 
         inPowerOfCpy = inPowerOf;
 
-        if (inPowerOf >= 8)
+        if (inPowerOf >= 8 && inPowerOf <=63)
         {
             for (outPowerOf = 1; inPowerOf > 0; --inPowerOf)
             {
@@ -52,7 +52,7 @@ int main()
             if (cont == 'n')
                 break;
         } else {
-            printf("\nError: Power of must be greater or equal to 8.");
+            printf("\nError: Power of must be greater 7 and less than 64.");
         }
     }
 
